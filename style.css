@@ -10,11 +10,31 @@ li {
     list-style: none;
 }
 
+header img {
+    width: 100%;
+    z-index:0;
+}
+
+header h1 {
+    position: absolute;
+    font-size: 10vw;
+    color:#fafafa;
+    z-index: 10;
+    text-shadow: 2px 2px 4px rgba(34, 37, 37, 1);
+    top: 56vh;
+    left: 69vw;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 0.9;
+}
+
 .nav-container {
     background: #74ebd5; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #74ebd5, #acb6e5); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #74ebd5, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 5vh;
+    position: absolute;
+    width: 100%;
+    top: -7vh;
 }
 
 .nav-container ul {
